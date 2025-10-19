@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-    Sitemap for Google Search Console.
-    Replace "https://eraengines.vercel.app" with your real site root and add one <url> entry per public page/file.
-    Use YYYY-MM-DD for <lastmod>. After publishing:
-     - add "Sitemap: https://yourdomain.com/sitemap.xml" to robots.txt
-     - submit https://yourdomain.com/sitemap.xml in Google Search Console
--->
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- Home / main entry point -->
-    <url>
-        <loc>https://eraengines.vercel.app/</loc>
-        <lastmod>2025-10-19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
+  <url>
+    <loc>https://eraengines.vercel.app/</loc>
+    <lastmod>2025-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-    <!-- Common pages: replace or duplicate these entries for each real file/route -->
-    <url>
-        <loc>https://eraengines.vercel.app/index.html</loc>
-        <lastmod>2025-10-19</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-    </url>
+  <url>
+    <loc>https://eraengines.vercel.app/index.html</loc>
+    <lastmod>2025-10-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
 
-    <!-- Add one <url> block per indexable file (HTML, canonical pages). Do NOT list private/test files. -->
 </urlset>

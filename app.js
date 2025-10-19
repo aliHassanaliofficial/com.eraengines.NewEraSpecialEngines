@@ -22,6 +22,10 @@ app.get('/countdown', (req, res) => {
   res.sendFile(path.join(rootPath, 'views', 'countdown.html'));
 });
 
+app.get('/sitemap.xml', (req, res) => {
+  res.sendFile(path.join(rootPath, 'sitemap.xml'));
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port: http://localhost:${port}`);
 });
