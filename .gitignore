@@ -1,0 +1,63 @@
+# Node modules
+node_modules/
+
+# Build / output directories
+dist/
+build/
+out/
+.next/
+.vite/
+.vitepress/
+public/build/
+
+# Dependency caches
+.pnp/
+.pnpm-store/
+.yarn/*
+
+# Keep selected Yarn v2 files
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment files (local secrets)
+.env
+.env.*.local
+.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Testing / coverage
+coverage/
+*.lcov
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Package artifacts
+*.tgz
+
+# Misc temp/pid files
+pids/
+*.pid
+*.seed

@@ -1,0 +1,81 @@
+    .countdown-box {
+        max-width: 600px;
+        margin: 100px auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(4px) saturate(0.5);
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .countdown-title {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .countdown-timer {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        font-size: 1.5em;
+    }
+
+    .time-segment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .time-value {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .time-label {
+        font-size: 0.8em;
+    }
+
+    .countdown-actions {
+        margin-top: 20px;
+    }
+
+    .countdown-back-link,
+    .countdown-refresh-link {
+        color: #00aced;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    .launch-message {
+        font-size: 2em;
+        color: #00ff00;
+    }
+
+    .not-launched {
+        font-size: 1em;
+        color: #ff0000;
+    }
+
+    .notification-form {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    .notification-input {
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+        margin-right: 10px;
+        background-color: #f1f1f1;
+    }
+
+    .notification-submit {
+        padding: 8px 12px;
+        border-radius: 5px;
+        border: none;
+        background-color: var(--background-color);
+        color: white;
+        cursor: pointer;
+    }

@@ -1,0 +1,29 @@
+
+:root {
+    --primary-color: #fff;
+    --secondary-color: rgb(215, 254, 3);
+    --background-color: #000;
+    
+}
+/* Root Value for gradients  
+    background-image: linear-gradient(270deg, rgb(146, 127, 228) 0%, rgb(253, 187, 114) 100%);
+*/
+
+body {
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.hr-divisor {
+    color: lightgray;
+}
+
+.logo {
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blurred-background {
+    filter: blur(2px) saturate(0.5);
+}

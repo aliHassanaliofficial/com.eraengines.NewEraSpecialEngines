@@ -1,0 +1,147 @@
+body {
+    background-color: var(--background-color);
+}
+
+.vanta-background-module {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vanta-canvas {
+    display: block !important;
+    position: absolute !important;
+    z-index: 0 !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 100% !important;
+    height: 100vh !important;
+}
+
+.background-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+era-module {
+    width: 100%;
+    height: 99vh;
+}
+
+.notification-box {
+    width: 95%;
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    padding: 15px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    z-index: 10;
+    border-radius: 12px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+.notification-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+}
+
+.notification-title {
+    font-family: cursive;
+    font-size: 20px;
+    color: #000000;
+}
+
+.notification-text {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+era-hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-image {
+    transition: 1s;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    opacity: 1;
+    animation: vibrateHero 2s ease-in-out 0s infinite normal both;
+}
+
+@keyframes vibrateHero {
+    0% {
+        transform: translate(0);
+    }
+
+    20% {
+        transform: translate(2px, -2px);
+    }
+
+    40% {
+        transform: translate(2px, 2px);
+    }
+
+    60% {
+        transform: translate(-2px, 2px);
+    }
+
+    80% {
+        transform: translate(-2px, -2px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+
+era-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-divisor {
+    margin: 15px 0px;
+    border-color: lightgray;
+    opacity: 0.2;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background-color: lightgray;
+}
+
+era-footer .copyright-text {
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

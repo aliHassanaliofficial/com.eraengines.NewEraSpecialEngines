@@ -1,0 +1,16 @@
+/*  */
+
+@media (max-width: 768px) {
+    .vanta-background-module {
+        background-position: center top !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .notification-box {
+        width: 30%;
+        top: 90%;
+        left: 99%;
+        transform: translate(-100%, -90%);
+    }
+}
