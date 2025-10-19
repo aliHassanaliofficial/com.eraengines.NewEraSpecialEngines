@@ -1,0 +1,5 @@
+# robots.txt — preview/staging site: prevent all indexing/crawling
+# Place this file at the site root to block all robots.
+User-agent: *
+Disallow: /
+Sitemap: https://eraengines.vercel.app/sitemap.xml
